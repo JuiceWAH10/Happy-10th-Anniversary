@@ -1,7 +1,10 @@
 {
+    "one_title": "Hi Boo!",
+    "one_subtitle": "Here's something I prepared for you ;)",
+    "two_title": "For this is now our 120th month",
   "greeting": "Hiya",
   "name": "Lydia",
-  "greetingText": "I really like your name btw!",
+  
   "wishText": "May the js.prototypes always be with you! ;)",
   "imagePath": "img/lydia2.png",
   "text1": "It's your birthday!!! :D",
