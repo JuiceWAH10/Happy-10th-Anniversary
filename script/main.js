@@ -98,7 +98,23 @@ const animationTimeline = () => {
       },
       "+=2"
     )
-    
+    .from(".four", 1.35, {
+      scale: 0.2,
+      opacity: 0
+    })
+    .to(".fake-btn", 0.1, {
+      backgroundColor: "rgb(127, 206, 248)"
+    })
+    .to(
+      ".four",
+      0.5,
+      {
+        scale: 0.2,
+        opacity: 0,
+        y: -150
+      },
+      "+=0.7"
+    )
     .from(".idea-1", 0.7, ideaTextTrans)
     .to(".idea-1", 0.7, ideaTextTransLeave, "+=1.5")
     .from(".idea-2", 0.7, ideaTextTrans)
