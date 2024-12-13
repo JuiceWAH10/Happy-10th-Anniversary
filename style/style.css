@@ -146,7 +146,7 @@ body {
 }
 
 .baloons img:nth-child(3n + 0) {
-  left: 45%;
+  left: 10%;
 }
 
 .eight svg {
@@ -226,6 +226,7 @@ body {
 }
 
 .nine p {
+  margin-top: -30px;
   font-size: 2rem;
   font-weight: lighter;
 }
